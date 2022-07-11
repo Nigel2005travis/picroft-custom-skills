@@ -29,7 +29,7 @@ class FinishedBootingSkill(MycroftSkill):
         LOG.debug('add event handle boot finished')
     
     def handle_boot_finished(self):
-        self.speak_dialog('finished.booting')
+        self.speak_dialog('Finished Booting, You can now get started with Lunar')
         LOG.debug('finished booting')
 
 # The "create_skill()" method is used to create an instance of the skill.
